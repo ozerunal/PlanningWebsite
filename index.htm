@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Drive</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/protBundle.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="oz-header">    
+        <div class="container">
+            <div id="header-region">
+                <div>
+                    <div id="block-basic-branding" class="block-system block-basic-branding">
+                       <a href="/" title="Home" rel="home" class="site-logo">
+                            <img src="/themes/basic/logo.svg" alt="Home">
+                       </a>
+                    </div>
+                </div>
+                <div class="oz-headermenu-trigger collapsed" data-toggle="collapse" data-target="#header-menu">
+                    <a class="btn oz-headermenu-btn oz-headermenu-btn--link">Menu</a>
+                </div>
+                <div class="oz-headermenu-links">
+                    <a class="btn js-scroll-btn oz-headermenu-links--btn" data-scroll-target="#proefles">Vraag Proefles</a>
+                    <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#main">Home</a>                    
+                    <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#prijzen">Prijzen</a>
+                    <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#over-ons">Over ons</a>
+                    <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#faq">FAQ</a>
+                    <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="header-menu" class="oz-headermenu-collapse collapse">
+        <div class="oz-headermenu-collapse--container js-collapse-container">
+            <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#main">Home</a>                    
+            <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#prijzen">Prijzen</a>
+            <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#over-ons">Over ons</a>
+            <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#faq">FAQ</a>
+            <a class="btn js-scroll-btn oz-headermenu-links--link" data-scroll-target="#contact">Contact</a>
+            <a class="btn js-scroll-btn oz-headermenu-links--btn" data-scroll-target="#proefles">
+                <span class="oz-headermenu-collapse--emphasis" data-scroll-target="#proefles">Vraag Proefles</span>
+            </a>
+            <a class="btn oz-headermenu-links--link oz-headermenu-links--contact">
+                <span class="oz-fb"><span class="icon-facebook js-click-facebook"></span></span>
+                <span class="oz-inst"><span class="icon-instagram"></span></span>
+            </a>
+        </div>
+    </div>
+    <div class="oz-follow-group hidden-xxs hidden-xs hidden-sm">
+        <a class="oz-fb"><span class="icon-facebook js-click-facebook"></span></a>
+        <a class="oz-inst"><span class="icon-instagram"></span></a>
+    </div>
+    
+    <div id="main" class="oz-main js-main-scroll">
+        <div class="container oz-main-title">
+            <h1>
+                Nimbus Drive
+            </h1>
+            <h2>
+                Achter de nimbus schijnt de rijbewijs
+            </h2>
+        </div>
+
+        <div class="oz-main-image js-main-image">
+            <picture>
+                <source srcset="/themes/basic/bg-xxs.jpg" media="(max-width: 479px)">
+                <source srcset="/themes/basic/bg-xs.jpg" media="(max-width: 767px)">
+                <source srcset="/themes/basic/bg-sm.jpg" media="(max-width: 991px)">
+                <source srcset="/themes/basic/bg-md.jpg" media="(max-width: 1199px)">
+                <source srcset="/themes/basic/bg-lg.jpg" media="(min-width: 1200px)">
+                <img srcset="/themes/basic/bg-xxs.jpg" class="oz-main-image--img hidden-xs hidden-sm hidden-md hidden-lg" >
+                <img srcset="/themes/basic/bg-xs.jpg" class="oz-main-image--img hidden-xxs hidden-sm hidden-md hidden-lg" >
+                <img srcset="/themes/basic/bg-sm.jpg" class="oz-main-image--img hidden-xxs hidden-xs hidden-md hidden-lg" >
+                <img srcset="/themes/basic/bg-md.jpg" class="oz-main-image--img hidden-xxs hidden-xs hidden-sm hidden-lg">
+                <img srcset="/themes/basic/lg-md.jpg" class="oz-main-image--img hidden-xxs hidden-xs hidden-sm hidden-md">
+            </picture>
+            
+            <!--
+            <img class="oz-main-image--img hidden-xxs hidden-xs hidden-sm hidden-md" src="/themes/basic/cool.jpg">
+            -->
+        </div>
+
+        <div class="container oz-main-container oz-main-container--intro">
+            <span>Leren rijden?</span>                        
+            </br>
+            <span>Ontdek onze prijzen!</span>
+            </br>
+            <a class="btn js-scroll-btn oz-content-btn" href="/calendarjs.htm" >Prijzen</a>
+        </div>
+
+        <div id="prijzen" class="container oz-main-container oz-main-container--prices">
+            <div class="oz-pakket col-sm-6 col-md-4">
+                <div class="oz-full-width oz-pakket--header">
+                    <span class="">Pakket Stratus</span>
+                </div>
+                <div class="oz-full-width oz-pakket--price">
+                    <span>€ 999</span>
+                </div>
+                <div class="oz-full-width oz-pakket--body">
+                    <div class="oz-full-width oz-pakket--item-body">
+                        <span class="oz-full-width oz-pakket--item"> - 19 lessen</span>
+                        <span class="oz-full-width oz-pakket--item"> - Gratis herexamens</span>   
+                        <span class="oz-full-width oz-pakket--item"> - Gratis proefles </span>
+                        <span class="oz-full-width oz-pakket--item oz-pakket--padding">(indien je de pakket koopt) </span>
+                    </div>
+                    <div class="oz-full-width oz-pakket--btn-center">
+                        <a class="btn js-scroll-btn oz-pakket--info" data-toggle="collapse" data-target="#stratus-answer" data-scroll-target="#stratus-question">Meer info</a>                    
+                    </div>   
+                    <div class="oz-full-width oz-pakket--btn-center">
+                        <a class="btn js-scroll-btn oz-content-btn oz-pakket--cta-bigger" data-scroll-target="#proefles">Proefles Aanvragen</a>                    
+                        <a class="btn js-scroll-btn oz-content-btn oz-pakket--cta-small" data-scroll-target="#proefles">Proefles</a>
+                    </div>                              
+                </div>
+            </div>
+            <div class="oz-pakket col-sm-6 col-md-4">
+                <div class="oz-full-width oz-pakket--header">
+                    <span class="">Pakket Nimbus</span>
+                </div>
+                <div class="oz-full-width oz-pakket--price">
+                    <span>€ 1199</span>
+                </div>
+                <div class="oz-full-width oz-pakket--body">
+                    <div class="oz-full-width oz-pakket--item-body">
+                        <span class="oz-full-width oz-pakket--item"> - 29 lessen</span>
+                        <span class="oz-full-width oz-pakket--item"> - Gratis herexamens</span>   
+                        <span class="oz-full-width oz-pakket--item"> - Gratis proefles </span>
+                        <span class="oz-full-width oz-pakket--item oz-pakket--padding">(indien je de pakket koopt) </span>
+                    </div>
+                    <div class="oz-full-width oz-pakket--btn-center">
+                        <a class="btn js-scroll-btn oz-pakket--info" data-toggle="collapse" data-target="#nimbus-answer" data-scroll-target="#nimbus-question">Meer info</a>                    
+                    </div>   
+                    <div class="oz-full-width oz-pakket--btn-center">
+                        <a class="btn js-scroll-btn oz-content-btn oz-pakket--cta-bigger" data-scroll-target="#proefles">Proefles Aanvragen</a>                    
+                        <a class="btn js-scroll-btn oz-content-btn oz-pakket--cta-small" data-scroll-target="#proefles">Proefles</a>
+                    </div>                              
+                </div>
+            </div>
+            <div class="oz-pakket col-sm-3 oz-pakket--empty"></div>
+            <div class="oz-pakket col-sm-6 col-md-4">
+                <div class="oz-full-width oz-pakket--header">
+                    <span class="">Pakket Cumulus</span>
+                </div>
+                <div class="oz-full-width oz-pakket--price">
+                    <span>€ 1399</span>
+                </div>
+                <div class="oz-full-width oz-pakket--body">
+                    <div class="oz-full-width oz-pakket--item-body">
+                        <span class="oz-full-width oz-pakket--item"> - 39 lessen</span>
+                        <span class="oz-full-width oz-pakket--item"> - Gratis herexamens</span>   
+                        <span class="oz-full-width oz-pakket--item"> - Gratis proefles </span>
+                        <span class="oz-full-width oz-pakket--item oz-pakket--padding">(indien je de pakket koopt) </span>
+                    </div>
+                    <div class="oz-full-width oz-pakket--btn-center">
+                        <a class="btn js-scroll-btn oz-pakket--info" data-toggle="collapse" data-target="#cumulus-answer" data-scroll-target="#cumulus-question">Meer info</a>                    
+                    </div>   
+                    <div class="oz-full-width oz-pakket--btn-center">
+                        <a class="btn js-scroll-btn oz-content-btn oz-pakket--cta-bigger" data-scroll-target="#proefles">Proefles Aanvragen</a>                    
+                        <a class="btn js-scroll-btn oz-content-btn oz-pakket--cta-small" data-scroll-target="#proefles">Proefles</a>
+                    </div>                              
+                </div>
+            </div>
+        </div>
+
+        <div id="proefles" class="container oz-main-container oz-main-container--intro">
+            <span>Vul uw gegevens in</span>                        
+            <br>
+            <span>Iemand zal spoedig contact met u opnemen voor de proefles</span>
+            <br>
+            <div>
+                <div class="contact-message-proefles-form contact-message-form contact-form block-contact-block block-contactblock-2" data-user-info-from-browser="" data-drupal-selector="contact-message-proefles-form" id="block-contactblock-2">
+                    <h2>Proefles aanvragen</h2>
+                    <form action="/" method="post" id="contact-message-proefles-form" accept-charset="UTF-8" data-drupal-form-fields="edit-field-proefname-0-value,edit-field-proefemail-0-value,edit-field-proeftelephone-0-value,edit-field-proefmessage-0-value,edit-field-proefcontacttypes,edit-field-proefpakket,edit-submit">
+                        <div class="oz-subject-input">
+                            <div class="field--type-string field--name-field-proefname field--widget-string-textfield js-form-wrapper form-wrapper" data-drupal-selector="edit-field-proefname-wrapper" id="edit-field-proefname-wrapper">      
+                                <div class="js-form-item form-item js-form-type-textfield form-item-field-proefname-0-value js-form-item-field-proefname-0-value">
+                                    <label for="edit-field-proefname-0-value" class="js-form-required form-required">Naam</label>
+                                    <input class="js-text-full text-full form-text required" data-drupal-selector="edit-field-proefname-0-value" type="text" id="edit-field-proefname-0-value" name="field_proefname[0][value]" value="" size="60" maxlength="255" placeholder="Vul uw naam in" required="required" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-sender-email-input">
+                            <div class="field--type-email field--name-field-proefemail field--widget-email-default js-form-wrapper form-wrapper" data-drupal-selector="edit-field-proefemail-wrapper" id="edit-field-proefemail-wrapper">      
+                                <div class="js-form-item form-item js-form-type-email form-item-field-proefemail-0-value js-form-item-field-proefemail-0-value">
+                                    <label for="edit-field-proefemail-0-value" class="js-form-required form-required">Email</label>
+                                    <input data-drupal-selector="edit-field-proefemail-0-value" type="email" id="edit-field-proefemail-0-value" name="field_proefemail[0][value]" value="" size="60" maxlength="254" placeholder="Vul uw email in" class="form-email required" required="required" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-telephone-input">
+                            <div class="field--type-telephone field--name-field-proeftelephone field--widget-telephone-default js-form-wrapper form-wrapper" data-drupal-selector="edit-field-proeftelephone-wrapper" id="edit-field-proeftelephone-wrapper">      
+                                <div class="js-form-item form-item js-form-type-tel form-item-field-proeftelephone-0-value js-form-item-field-proeftelephone-0-value">
+                                    <label for="edit-field-proeftelephone-0-value" class="js-form-required form-required">Telefoon nummer</label>
+                                    <input data-drupal-selector="edit-field-proeftelephone-0-value" type="tel" id="edit-field-proeftelephone-0-value" name="field_proeftelephone[0][value]" value="" size="30" maxlength="128" placeholder="Vul uw telefoon nummer in" class="form-tel required" required="required" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-message-input">
+                            <div class="field--type-string-long field--name-field-proefmessage field--widget-string-textarea js-form-wrapper form-wrapper" data-drupal-selector="edit-field-proefmessage-wrapper" id="edit-field-proefmessage-wrapper">      
+                                <div class="js-form-item form-item js-form-type-textarea form-item-field-proefmessage-0-value js-form-item-field-proefmessage-0-value">
+                                    <label for="edit-field-proefmessage-0-value">Commentaar</label>
+                                    <div>
+                                        <textarea class="js-text-full text-full form-textarea" data-drupal-selector="edit-field-proefmessage-0-value" id="edit-field-proefmessage-0-value" name="field_proefmessage[0][value]" rows="12" cols="60" placeholder="Had u nog iets om mee te delen?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-contacttype-select">
+                            <div class="field--type-entity-reference field--name-field-proefcontacttypes field--widget-options-select js-form-wrapper form-wrapper" data-drupal-selector="edit-field-proefcontacttypes-wrapper" id="edit-field-proefcontacttypes-wrapper">
+                                <div class="js-form-item form-item js-form-type-select form-item-field-proefcontacttypes js-form-item-field-proefcontacttypes">
+                                    <label for="edit-field-proefcontacttypes" class="js-form-required form-required">Hoe wilt u dat we contact opnemen met jou?</label>
+                                    <select data-drupal-selector="edit-field-proefcontacttypes" id="edit-field-proefcontacttypes" name="field_proefcontacttypes" class="form-select required" required="required" aria-required="true">
+                                        <option value="1" selected="selected">Email</option>
+                                        <option value="2">WhatsApp</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-pakket-select">
+                            <div class="field--type-entity-reference field--name-field-proefpakket field--widget-options-select js-form-wrapper form-wrapper" data-drupal-selector="edit-field-proefpakket-wrapper" id="edit-field-proefpakket-wrapper"><div class="js-form-item form-item js-form-type-select form-item-field-proefpakket js-form-item-field-proefpakket">
+                                <label for="edit-field-proefpakket" class="js-form-required form-required">Welke pakket had u in gedachte?</label>
+                                    <select data-drupal-selector="edit-field-proefpakket" id="edit-field-proefpakket" name="field_proefpakket" class="form-select required" required="required" aria-required="true">
+                                        <option value="3">Stratus</option>
+                                        <option value="4" selected="selected">Nimbus</option>
+                                        <option value="5">Cumulus</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-buttons-action">
+                            <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+                            <input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Verzend" class="button button--primary js-form-submit form-submit">
+                            </div>
+                        </div>
+                        <input data-drupal-selector="form-m2sjmi8vrd-q-w44bxf2oiffhody2q70lfmqo8zf61c" type="hidden" name="form_build_id" value="form-m2SJMI8VRd-Q-w44bxF2OiFFHoDY2q70lfMQO8zF61c">
+                        <input data-drupal-selector="edit-contact-message-proefles-form" type="hidden" name="form_id" value="contact_message_proefles_form">
+                        <div class="field--type-language field--name-langcode field--widget-language-select js-form-wrapper form-wrapper" data-drupal-selector="edit-langcode-wrapper" id="edit-langcode-wrapper">      
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+         <div id="over-ons" class="container oz-main-container oz-main-container--intro oz-main-container--about">
+            <h2>RIJSCHOOL NIMBUSDRIVE</h2>
+            <p>
+                Wij zijn een redelijk nieuwe rijschool dat erop uit om jou te helpen met 1 doel:
+            </p>
+            <h2>JE RIJBEWIJS</h2>
+            <p>
+                Om dit te realiseren, hebben we deze rijschool opgericht.
+            </p>
+            <p>
+                Enkel het behalen van je rijbewijs is niet genoeg. Hoe je dit doet, is zeker
+                even belangrijk. Wij werken samen met gecertificeerde en zeer professionele 
+                rijinstructeurs. Ze hebben de nodige ervaring, daar ze dit al jaren doen,
+                maar weten ook nog hoe stressvol dit kan zijn voor een leerling.
+            </p>
+            <p>
+                Wij prijzen ons erop, dat onze rijinstructeurs begaan zijn met hun leerlingen
+                en er ook alles voor doen om hen op hun gemak te stellen. Het is niet enkel
+                een kwestie van uren kloppen, maar ook effectief de leerlingen iets bij brengen.
+            </p>
+            <p>
+                Wil je meer weten over ons? Bekijk onze meest gestelde vragen!
+            </p>
+            <div class="oz-full-width oz-about--button">
+                <a class="btn js-scroll-btn oz-content-btn" data-scroll-target="#faq">FAQ</a>           
+            </div>
+        </div>
+
+        <div id="faq" class="container oz-main-container oz-main-container--intro">
+            <h2>Je hebt vragen over rijschool Nimbus?</h2>
+            <div class="oz-full-width oz-faq--questions">
+                <div id="stratus-question" class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#stratus-answer">
+                    <h2 class="oz-faq--question-header">Wat houdt pakket Stratus in?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="stratus-answer" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        Pakket Stratus is onze basis pakket, you dig?
+                    </div>
+                </div>
+                <div id="nimbus-question" class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#nimbus-answer">
+                    <h2 class="oz-faq--question-header">Wat houdt pakket Nimbus in?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="nimbus-answer" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        Pakket Nimbus is onze basis pakket, you dig?
+                    </div>
+                </div>
+                <div id="cumulus-question" class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#cumulus-answer">
+                    <h2 class="oz-faq--question-header">Wat houdt pakket Cumulus in?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="cumulus-answer" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        Pakket Cumulus is onze basis pakket, you dig?
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-1">
+                    <h2 class="oz-faq--question-header">Waarom rijschool Nimbus?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-1" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-2">
+                    <h2 class="oz-faq--question-header">Hoe helpt Nimbusdrive mij aan mijn rijbewijs?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-2" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-3">
+                    <h2 class="oz-faq--question-header">Waarom heb ik een proefrijles nodig?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-3" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-4">
+                    <h2 class="oz-faq--question-header">Wat zijn de voorwaarden voor een gratis proefrijles?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-4" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-5">
+                    <h2 class="oz-faq--question-header">Hoe lang duurt een rijles?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-5" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-6">
+                    <h2 class="oz-faq--question-header">Is het enkel met pakketten of ook losse rijlessen?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-6" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-7">
+                    <h2 class="oz-faq--question-header">Hoeveel kost een losse rijles?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-7" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-8">
+                    <h2 class="oz-faq--question-header">Kan ik per rijles betalen?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-8" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-9">
+                    <h2 class="oz-faq--question-header">Hoe ver van tevoren kan ik mijn rijles nog afzeggen/verzetten?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-9" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-10">
+                    <h2 class="oz-faq--question-header">Ik wil mijn rijlessen annuleren, is dit mogelijk?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-10" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-11">
+                    <h2 class="oz-faq--question-header">Wat heb ik nodig voor de rijlessen?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-11" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-12">
+                    <h2 class="oz-faq--question-header">Hoeveel rijlessen heb ik nodig?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-12" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-13">
+                    <h2 class="oz-faq--question-header">Is mijn rijexamen echt gratis?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-13" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-14">
+                    <h2 class="oz-faq--question-header">Wat heb ik nodig om voor de rijexamen van CBR in te schrijven?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-14" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-15">
+                    <h2 class="oz-faq--question-header">Hoe lang kan het duren eer ik mijn rijexamen kan afleggen?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-15" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-16">
+                    <h2 class="oz-faq--question-header">Wat is het kortste periode dat ik al mijn rijlessen kan doen?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-16" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+                <div class="oz-full-width oz-faq--question clearfix collapsed" data-toggle="collapse" data-target="#answer-17">
+                    <h2 class="oz-faq--question-header">Wat is het langste periode dat ik al mijn rijlessen kan doen?</h2>
+                    <div class="oz-faq--question-collapser"></div>
+                </div>
+                <div id="answer-17" class="collapse oz-faq--collapse">
+                    <div class="oz-full-width oz-faq--answer">
+                        because we are the besterest and the smarteerest
+                    </div>
+                </div>
+            </div>
+            </br>
+            <span>Is iets alsnog niet duidelijk?</span>
+            </br>
+            <span>Contacteer ons</span>
+            </br>
+            <a class="btn js-scroll-btn oz-content-btn" data-scroll-target="#contact">Contact</a>
+            </br>
+            </br>
+            <span>Of vraag meteen je proefles aan!</span>
+            </br>
+            <a class="btn js-scroll-btn oz-content-btn" data-scroll-target="#proefles">Proefles aanvragen</a>
+        </div>
+
+        <div id="contact" class="container oz-main-container oz-main-container--intro">
+            <span>Contacteer ons!</span>                        
+            <br>
+            <span>We nemen spoedig contact met je op</span>
+            <br>
+            <div>
+                <div class="contact-message-maincontact-form contact-message-form contact-form block-contact-block block-contactblock" data-user-info-from-browser="" data-drupal-selector="contact-message-maincontact-form" id="block-contactblock">
+                    <h2>Contact formulier</h2>
+                    <form action="/" method="post" id="contact-message-maincontact-form" accept-charset="UTF-8" data-drupal-form-fields="edit-field-email-0-value,edit-field-vraag-0-value,edit-submit--2">
+                        <div class="oz-sender-email-input">
+                            <div class="field--type-email field--name-field-email field--widget-email-default js-form-wrapper form-wrapper" data-drupal-selector="edit-field-email-wrapper" id="edit-field-email-wrapper">      
+                                <div class="js-form-item form-item js-form-type-email form-item-field-email-0-value js-form-item-field-email-0-value">
+                                    <label for="edit-field-email-0-value" class="js-form-required form-required">Email</label>
+                                    <input data-drupal-selector="edit-field-email-0-value" type="email" id="edit-field-email-0-value" name="field_email[0][value]" value="" size="60" maxlength="254" placeholder="Vul uw email in" class="form-email required" required="required" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-message-input">
+                            <div class="field--type-string-long field--name-field-vraag field--widget-string-textarea js-form-wrapper form-wrapper" data-drupal-selector="edit-field-vraag-wrapper" id="edit-field-vraag-wrapper">      
+                                <div class="js-form-item form-item js-form-type-textarea form-item-field-vraag-0-value js-form-item-field-vraag-0-value">
+                                    <label for="edit-field-vraag-0-value">Vraag</label>
+                                    <div>
+                                        <textarea class="js-text-full text-full form-textarea" data-drupal-selector="edit-field-vraag-0-value" id="edit-field-vraag-0-value" name="field_vraag[0][value]" rows="12" cols="60" placeholder="Welk vraag had u graag gesteld?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oz-buttons-action">
+                            <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value="Verzend" class="button button--primary js-form-submit form-submit">
+                            </div>
+                        </div>
+                        <input data-drupal-selector="form-q6ydx-tfgb3pzx6vhscf6gjegnige0v0ehbcfzmhhle" type="hidden" name="form_build_id" value="form-Q6ydx_TFGb3Pzx6vhSCF6GjegNige0v0eHBCfZmHhLE">
+                        <input data-drupal-selector="edit-contact-message-maincontact-form" type="hidden" name="form_id" value="contact_message_maincontact_form">
+                        <div class="field--type-language field--name-langcode field--widget-language-select js-form-wrapper form-wrapper" data-drupal-selector="edit-langcode-wrapper" id="edit-langcode-wrapper--2">      
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oz-footer">
+        <div class="container">
+            <div class ="oz-footer-webfonts">
+                <a target="_blank" class="oz-footer-webfonts--icon icon-facebook js-click-facebook"></a>
+                <a target="_blank" class="oz-footer-webfonts--icon icon-instagram"></a>
+            </div>
+            <div class="oz-footer-links">
+                <a class="btn js-scroll-btn oz-footer-links--btn" data-scroll-target="#proefles">Vraag Proefles</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/require.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/custom.js"></script>
+
+</body>
+
+</html>
